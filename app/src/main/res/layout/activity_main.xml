@@ -1,43 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/my_bg_anim"
+    android:id="@+id/myLayout"
     tools:context="com.example.android.newfoodorderclient.MainActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Sign Up"/>
 
+    <ImageView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="110dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/userImage"
+        android:src="@drawable/ic_account_box_black_24dp"
+        />
     <EditText
+        android:layout_marginRight="20dp"
+
+        android:layout_toRightOf="@id/userImage"
+        android:layout_marginTop="100dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
         android:hint="Enter email"
         android:id="@+id/editEmail"/>
 
-    <EditText
+
+
+    <ImageView
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="155dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordImage"
+        android:src="@drawable/ic_lock_black_24dp"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_marginRight="20dp"
+        android:inputType="textPassword"
+
+        app:met_singleLineEllipsis="true"
+        app:met_baseColor="#000000"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="30"
+        app:met_primaryColor="#000000"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter password"
-        android:id="@+id/editPass"/>
+        android:id="@+id/editPass"
+        android:layout_toRightOf="@id/passwordImage"
+        android:layout_below="@id/editEmail"/>
 
     <Button
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/passwordImage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sign Up"
-        android:onClick="signupButtonClicked"/>
+        android:id="@+id/signUp"
+        android:onClick="signupButtonClicked"
+        android:background="@color/colorPrimary"/>
 
     <TextView
+        android:layout_below="@id/signUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Already have an account?"
-        android:layout_marginTop="250dp" />
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="110dp"
+        android:textColor="#000000"
+        android:id="@+id/text"/>
     <Button
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sign in"
-        android:onClick="signinButtonClicked"/>
-</LinearLayout>
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/text"
+        android:onClick="signinButtonClicked"
+        android:background="@color/colorPrimary"/>
+
+
+</RelativeLayout>

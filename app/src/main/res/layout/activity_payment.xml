@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cashbackground1"
+    android:orientation="vertical">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="40dp"
+    android:textStyle="bold"
+    android:textSize="10pt"
+    android:paddingLeft="110dp"
+    android:paddingTop="40dp"
+    android:text="Payment Method" />
+
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<ImageView
+    android:layout_width="60dp"
+    android:layout_height="50dp"
+    android:layout_marginLeft="50dp"
+    android:src="@drawable/cash"/>
+
+<TextView
+    android:id="@+id/cash"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:onClick="CashFunction"
+    android:paddingBottom="40dp"
+    android:paddingLeft="50dp"
+    android:paddingTop="15dp"
+    android:text="Cash" />
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<ImageView
+    android:layout_width="60dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="50dp"
+    android:src="@drawable/netbanking"
+    />
+
+<TextView
+    android:id="@+id/net"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:onClick="NetFunction"
+    android:paddingBottom="40dp"
+    android:paddingLeft="50dp"
+    android:paddingTop="15dp"
+
+    android:text="Net Banking" />
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<ImageView
+    android:layout_width="60dp"
+    android:layout_height="50dp"
+    android:layout_marginLeft="50dp"
+    android:src="@drawable/credit"
+    />
+
+<TextView
+    android:id="@+id/credit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:onClick="CreditFunction"
+    android:paddingBottom="40dp"
+    android:paddingLeft="50dp"
+    android:paddingTop="15dp"
+
+    android:text="Credit Card" />
+</LinearLayout>
+
+
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<ImageView
+    android:layout_width="60dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="50dp"
+    android:src="@drawable/debit"
+    />
+
+<TextView
+    android:id="@+id/debit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:onClick="DebitFunction"
+    android:paddingBottom="40dp"
+    android:paddingLeft="50dp"
+    android:paddingTop="15dp"
+    android:text="Debit Card" />
+
+</LinearLayout>
+
+    </LinearLayout>

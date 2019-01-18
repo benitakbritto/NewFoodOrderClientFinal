@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/table_booking">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/button3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="99dp"
+        android:onClick="table11"
+        android:text="11" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="39dp"
+        android:onClick="table12"
+        android:text="12" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="172dp"
+        android:text="13"
+        android:onClick="table13"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="121dp"
+        android:text="14"
+        android:onClick="table14"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="302dp"
+        android:text="15"
+        android:onClick="table15"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/button4"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="181dp"
+        android:text="16"
+        android:onClick="table16"/>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/button5"
+        android:layout_alignTop="@+id/button9"
+        android:text="17"
+        android:onClick="table17"/>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="117dp"
+        android:text="18"
+        android:onClick="table18"/>
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/button4"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="56dp"
+        android:onClick="table19"
+        android:text="19" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="99dp"
+        android:text="10"
+        android:onClick="table10"/>
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="35dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="218dp"
+        android:text="9"
+        android:onClick="table9"/>
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="35dp"
+        android:layout_height="36dp"
+        android:layout_alignEnd="@+id/button12"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="296dp"
+        android:text="8"
+        android:onClick="table8"/>
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="35dp"
+        android:layout_height="36dp"
+        android:layout_alignStart="@+id/button12"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="249dp"
+        android:text="7"
+        android:onClick="table7"/>
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="35dp"
+        android:layout_height="36dp"
+        android:layout_alignStart="@+id/button12"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="167dp"
+        android:text="6"
+        android:onClick="table6"/>
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="35dp"
+        android:layout_height="36dp"
+        android:layout_alignTop="@+id/button13"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="112dp"
+        android:text="5"
+        android:onClick="table5"/>
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="35dp"
+        android:layout_height="36dp"
+        android:layout_alignStart="@+id/button16"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="242dp"
+        android:text="4"
+        android:onClick="table4"/>
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="35dp"
+        android:layout_height="36dp"
+        android:layout_alignStart="@+id/button16"
+        android:layout_alignTop="@+id/button15"
+        android:text="3"
+        android:onClick="table3"/>
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="35dp"
+        android:layout_height="36dp"
+        android:layout_above="@+id/button10"
+        android:layout_alignStart="@+id/button16"
+        android:text="2"
+        android:onClick="table2"/>
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="35dp"
+        android:layout_height="36dp"
+        android:layout_below="@+id/button10"
+        android:layout_alignStart="@+id/button16"
+        android:layout_marginTop="-56dp"
+        android:text="1"
+        android:onClick="table1"/>
+</RelativeLayout>

@@ -2,11 +2,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.android.newfoodorderclient">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true"/>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_person_pin_black_24dp"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
@@ -18,7 +24,27 @@
         </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".MenuActivity" />
-        <activity android:name=".SingleFoodActivity"></activity>
+        <activity android:name=".SingleFoodActivity" />
+        <activity android:name=".OpenBill" />
+        <activity android:name=".ShimmerActivity" />
+        <activity android:name=".Sign_In" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".tableBooking" />
+        <activity android:name=".Payment" />
+        <activity android:name=".Redirect" />
+        <activity android:name=".verify_payment" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".MenuList" />
+        <activity android:name=".Starters" />
+        <activity android:name=".MainCourse" />
+        <activity android:name=".Dessert" />
+        <activity android:name=".SingleFoodActivityStarters" />
+        <activity android:name=".SingleFoodActivityMainCourse" />
+        <activity android:name=".SingleFoodActivityDessert" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2" />
+        <activity android:name=".CameraTry"></activity>
     </application>
 
 </manifest>

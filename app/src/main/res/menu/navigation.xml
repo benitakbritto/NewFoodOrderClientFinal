@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_starters"
+        android:icon="@drawable/soup"
+        android:title="Appetiser" />
+
+    <item
+        android:id="@+id/navigation_maincourse"
+        android:icon="@drawable/maincourse"
+        android:title="Main Course" />
+
+    <item
+        android:id="@+id/navigation_dessert"
+        android:icon="@drawable/dessert"
+        android:title="Dessert" />
+
+    <item
+        android:id="@+id/navigation_bill"
+        android:icon="@drawable/bill"
+        android:title="Bill" />
+
+</menu>
